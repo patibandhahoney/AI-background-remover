@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Background Remover</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><span>AI</span> Background Remover</h1>
+    <p>Upload your image and watch the background disappear like magic!</p>
+
+    <div class="upload-area" onclick="document.getElementById('imageInput').click()">
+      <input type="file" id="imageInput" accept="image/*" onchange="previewImage(event)" />
+      <div class="upload-icon">📤</div>
+      <p class="upload-text">Click or Drag & Drop to Upload Image</p>
+      <small id="file-name">No file selected</small>
+    </div>
+
+    <button onclick="removeBackground()">Remove Background</button>
+
+    <div class="result-container" id="resultSection" style="display:none;">
+      <div class="image-box">
+        <h2>Original Image</h2>
+        <img id="originalImage" />
+      </div>
+      <div class="image-box">
+        <h2>Background Removed</h2>
+        <img id="removedImage" />
+        <a id="downloadLink" class="download-btn" download="removed.png">Download</a>
+      </div>
+    </div>
+
+    <footer>© 2025 Powered by AI ✨</footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
