@@ -32,6 +32,6 @@
 ![Image](https://github.com/user-attachments/assets/abbe7414-5f52-4aee-8b31-da1d2a154e44)
 
 ### 🔹 Recent Removed Image History
-![Screenshot 2](./screenshots/image-history.png)
+![Image](https://github.com/user-attachments/assets/587bba14-65d9-4ba2-9840-182ffbf20c82)
 
 ---
