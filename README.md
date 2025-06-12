@@ -28,8 +28,8 @@
 
 ## 📸 Screenshots
 
-### 🔹 Dashboard UI with Before/After Preview
-![Screenshot 1](./screenshots/dashboard-preview.png)
+### 🔹 Main page UI with Before Preview
+![Image](https://github.com/user-attachments/assets/abbe7414-5f52-4aee-8b31-da1d2a154e44)
 
 ### 🔹 Recent Removed Image History
 ![Screenshot 2](./screenshots/image-history.png)
